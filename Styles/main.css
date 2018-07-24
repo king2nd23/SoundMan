@@ -1,0 +1,73 @@
+*{
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+}
+body{
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+}
+.music-links iframe{
+  float: left;
+  width: 20%;
+}
+.music-links{
+  display: block;
+  text-align: right;
+  color: #D5D6DB;
+}
+.music-links ul{
+  display: inline-block;
+  width: 20%;
+  margin: 0;
+  padding: 0;
+  margin-right: 1%;
+}
+.music-links ul li{
+  display: inline-block;
+  margin-left: 5%;
+  font-size: 1.3rem;
+}
+.music-links ul a li i{
+  color: #D5D6DB;
+}
+.main-header{
+  display: block;
+  font-family:  'Orbitron', sans-serif;
+  text-align: center;
+}
+.main-header h1{
+  font-size: 4rem;
+  color: #D5D6DB;
+  letter-spacing: 2;
+  margin-top: 21%;
+  letter-spacing: 3px;
+}
+.nav-menu{
+  display: block;
+  font-family:  'Orbitron', sans-serif;
+  text-align: center;
+  margin-top: 22%;
+  font-weight: 200;
+}
+.nav-menu ul li{
+  display: inline-block;
+  margin-right: 3%;
+  color: #F4D065;
+  letter-spacing: 2px;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  margin: 0;
+}
+footer h6{
+  margin:0;
+  font-weight: 100;
+  font-size: 8px;
+  color: #D5D6DB;
+}
