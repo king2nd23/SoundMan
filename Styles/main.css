@@ -30,7 +30,10 @@ body{
 .music-links ul li{
   display: inline-block;
   margin-left: 5%;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+}
+.music-links ul i:hover{
+  color: #F4D065;
 }
 .music-links ul a li i{
   color: #D5D6DB;
@@ -44,7 +47,7 @@ body{
   font-size: 4rem;
   color: #D5D6DB;
   letter-spacing: 2;
-  margin-top: 21%;
+  margin-top: 18%;
   letter-spacing: 3px;
 }
 .nav-menu{
@@ -68,6 +71,6 @@ footer{
 footer h6{
   margin:0;
   font-weight: 100;
-  font-size: 8px;
+  font-size: 10px;
   color: #D5D6DB;
 }
