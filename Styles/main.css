@@ -56,6 +56,7 @@ body{
   text-align: center;
   font-size: .8rem;
   font-weight: lighter;
+  color: #D5D6DB;
   letter-spacing: 8px;
 }
 .main-header img{
@@ -93,10 +94,8 @@ footer h6{
   font-size: 10px;
   color: #D5D6DB;
 }
-.youtube_codegena{
-  margin: 0 auto;
-}
 .die-hard-video{
+  width: 100%;
   text-align: center;
 }
 .contact-soundman{
@@ -119,7 +118,15 @@ footer h6{
   font-size: 30px;
 }
 .contact-soundman ul a li i{
+  color: #D5D6DB;
+  border: 2px solid transparent;
+  border-radius: 100%;
+  padding: 30%;
+  height:30px;
+  width: 30px;
+  transition: all 0.5s ease-in;
+}
+.contact-soundman ul a li i:hover{
   border: 2px solid #F4D065;
   border-radius: 100%;
-  padding: 20px;
 }
