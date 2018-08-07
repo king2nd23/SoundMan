@@ -74,7 +74,7 @@ body{
   text-align: center;
   font-weight: 200;
   z-index: -1;
-  margin-bottom: 15%;
+  margin-bottom: 18%;
 }
 .nav-menu ul li{
   display: inline-block;
@@ -96,6 +96,30 @@ footer h6{
 .youtube_codegena{
   margin: 0 auto;
 }
-iframe{
+.die-hard-video{
+  text-align: center;
+}
+.contact-soundman{
+  width: 100%;
+  text-align: center;
+  margin: 20% 0 20% 0 ;
+}
+.contact-soundman h1{
+  font-family: 'Orbitron', sans-serif;
+  color: #F4D065;
+  margin-bottom: 10%;
+  letter-spacing: 2px;
+}
+.contact-soundman ul{
   margin: 0 auto;
+}
+.contact-soundman ul a{
+  display: inline-block;
+  margin-right: 8%;
+  font-size: 30px;
+}
+.contact-soundman ul a li i{
+  border: 2px solid #F4D065;
+  border-radius: 100%;
+  padding: 20px;
 }
